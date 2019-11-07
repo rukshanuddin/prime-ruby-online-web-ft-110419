@@ -4,7 +4,7 @@ def prime?(int)
      return false
    elsif int == 2 || int == 3
      return true
-   elsif (2...int).to_a.any? { |e| int % e == 0  } 
+   elsif (2...int).to_a.any? { |e| int % e == 0  }
      return false
    else
      true
@@ -12,5 +12,5 @@ def prime?(int)
 end
 
 # array = [2...int]
-# 
+#
 # array.any? { |e| int % e == 0  } 
